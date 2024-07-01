@@ -28,9 +28,9 @@ export default function About() {
 
         <div className={styles.about__text}>
         <p> 
-          {`Hi! I'm Lizmery and I enjoy building various aesthetic and user-friendly digital experiences. 
+          Hi! I&apos;m Lizmery and I enjoy building various aesthetic and user-friendly digital experiences. 
           My interest in web development began back in the day when MySpace was still around and I would 
-          spend hours customizing my profile only to change up the design again, days later.`}
+          spend hours customizing my profile only to change up the design again, days later.
         </p>
                   <br />
                   <p>
