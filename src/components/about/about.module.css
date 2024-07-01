@@ -1,6 +1,8 @@
 .about {
     background-image: var(--first-gradient);
     padding-bottom: 180px;
+    position: relative;
+    overflow: hidden !important;
   }
   
   .about,
@@ -78,6 +80,13 @@
   .shape__3 {
     bottom: 0;
     right: -2%;
+  }
+
+  #about 
+
+  #about .bg__title {
+    overflow: hidden !important;
+    max-width: 100vw;
   }
 
   @media screen and (max-width: 1400px) {

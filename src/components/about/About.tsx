@@ -54,7 +54,7 @@ export default function About() {
     
 
     <div className='section__bg-wrapper'>
-      <span className='bg__title'>About Me</span>
+      <span className='bg__title dark'>About Me</span>
     </div>
   </section>
   )

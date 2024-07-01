@@ -29,7 +29,7 @@ export default function Skills() {
       </div>
 
       <div className='section__bg-wrapper'>
-        <span className='bg__title'>My Skills</span>
+        <span className='bg__title'>Skills</span>
       </div>
     </section>
   )

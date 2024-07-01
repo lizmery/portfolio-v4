@@ -32,7 +32,7 @@ export default function Projects() {
         {projects.map((project) => {
           return (
             // <SwiperSlide className={`${styles.projects__item} card card-one`} key={project.id}>
-            <CarouselItem key={project.id} className={`${styles.projects__item} md:basis-1/2 xl:basis-1/3`}>
+            <CarouselItem key={project.id} className={`${styles.projects__item} lg:basis-1/2 xl:basis-1/3`}>
               <ProjectCard  project={project} />
             {/* // </SwiperSlide> */}
             </CarouselItem>
@@ -52,7 +52,7 @@ export default function Projects() {
       </div>
 
       <div className='section__bg-wrapper'>
-        <span className='bg__title'>My Projects</span>
+        <span className='bg__title'>Projects</span>
       </div>
     </section>
   )

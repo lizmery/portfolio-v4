@@ -74,7 +74,7 @@
   }
   
   .showContent {
-    max-height: 500px;
+    max-height: 600px;
   }
 
   .activeIcon {
@@ -121,13 +121,12 @@
   }
 
   @media screen and (max-width: 576px) {
-  
-    .resume__nav {
-      padding: 28px 24px;
+    .resume__header {
+      padding: 25px 10px 5px 10px;
     }
   
     .resume__content {
-      padding-inline: 24px 30px;
+      padding-inline: 10px 16px;
     }
   
     .resume__dateTitle {

@@ -2,9 +2,15 @@
 .hero {
     background-image: var(--first-gradient);
     padding-bottom: 180px;
-    overflow: hidden;
+    position: relative;
+    overflow: hidden !important;
+    
   }
-  
+
+  .heroBgWrapper {
+    overflow: initial !important;
+  }
+
   .hero,
   .hero__wrapper,
   .hero__container {
@@ -127,57 +133,7 @@
     border: 3px solid var(--primary-color);
   }
   
-  .hero__data {
-    border: 2px solid var(--border-color);
-    background: var(--container-color);
-    box-shadow: var(--shadow);
-    padding-inline: 20px;
-    width: 250px;
-    height: 82px;
-    border-radius: 82px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
-  }
   
-  .hero__data-one {
-    bottom: 20%;
-    left: -4%;
-  }
-  
-  .hero__data-two {
-    bottom: 12%;
-    right: 6%;
-  }
-  
-  .hero__data .text-lg,
-  .hero__data .text-sm {
-    width: 50%;
-    color: var(--title-color);
-    font-weight: 700;
-  }
-  
-  .hero__data .text-lg {
-    text-align: center;
-    font-size: 37px;
-  }
-  
-  .hero__data .text-sm {
-    font-size: 13px;
-    line-height: 1.5em;
-  }
-  
-  .hero__data .text-lg b,
-  .hero__data .text-sm span {
-    color: var(--primary-color);
-  }
-  
-  .hero__data .text-lg b {
-    position: relative;
-    top: -4px;
-  }
-
 
 
 
@@ -220,9 +176,6 @@
       max-width: 600px;
     }
   
-    .hero__data {
-      transform: scale(0.9);
-    }
   
     .shape1 {
       width: 203px;
@@ -289,18 +242,6 @@
       max-width: 400px;
     }
   
-    .hero__data {
-      transform: scale(0.6);
-    }
-  
-    .hero__data-one {
-      left: -12%;
-    }
-  
-    .hero__data-two {
-      right: -7%;
-    }
-  
     .shape1 {
       width: 115px;
       height: 115px;
@@ -333,19 +274,5 @@
   @media screen and (max-width: 350px) {
     .hero__imgWrapper {
       margin-block-start: 80px;
-    }
-  
-    .hero__data {
-      transform: scale(0.5);
-    }
-  
-    .hero__data-one {
-      bottom: 18%;
-      left: -18%;
-    }
-  
-    .hero__data-two {
-      bottom: 0;
-      right: -12%;
     }
   }

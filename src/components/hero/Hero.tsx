@@ -58,8 +58,8 @@ export default function Hero() {
             </div>
       </div>
 
-      <div className='section__bgWrapper'>
-        <span className='bg__title'>Software Developer</span>
+      <div className={`section__bgWrapper ${styles.heroBgWrapper}`}>
+        <span className='bg__title dark'>Software Developer</span>
       </div>
 
 

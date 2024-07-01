@@ -138,7 +138,7 @@ export default function Contact() {
       </div>
 
       <div className='section__bg-wrapper'>
-        <span className='bg__title'>Contact Me</span>
+        <span className='bg__title dark'>Contact</span>
       </div>
     </section>
   )

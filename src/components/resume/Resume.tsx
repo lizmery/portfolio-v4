@@ -59,7 +59,7 @@ export default function Resume() {
       </div>
 
       <div className='section__bg-wrapper'>
-        <span className='bg__title'>My Resume</span>
+        <span className='bg__title dark'>Resume</span>
       </div>
     </section>
   )
