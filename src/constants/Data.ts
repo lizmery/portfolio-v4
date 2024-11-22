@@ -1,7 +1,8 @@
-import Project1 from '../assets/project1.png'
-import Project2 from '../assets/project2.png'
-import Project3 from '../assets/project3.png'
-import Project4 from '../assets/project4.png'
+import MediaTracker from '../assets/mediatracker.png'
+import Ecommerce from '../assets/ecommerce.png'
+import HairSalon from '../assets/hairsalon.png'
+import Portfolio from '../assets/portfolio.png'
+import TamalesShop from '../assets/tamalesShop.png'
 
 export const navItems = [
     {
@@ -54,81 +55,101 @@ export const skills = [
         icon: '',
     },
     {
-        id: 2,
+      id: 2,
+      name: 'Node',
+      icon: '',
+    },
+    {
+      id: 3,
+      name: 'Express',
+      icon: '',
+    },
+    {
+        id: 4,
         name: 'TailwindCSS',
         icon: '',
     },
     {
-        id: 3,
+        id: 5,
         name: 'Typescript',
         icon: '',
     },
     {
-        id: 4,
+        id: 6,
         name: 'JavaScript',
         icon: '',
     },
     {
-        id: 5,
+        id: 7,
         name: 'MongoDB',
         icon: '',
     },
     {
-        id: 6,
+        id: 8,
         name: 'Salesforce',
         icon: '',
     },
     {
-        id: 7,
+        id: 9,
         name: 'APIs',
         icon: '',
     },
     {
-        id: 8,
+        id: 10,
         name: 'HTML5',
         icon: '',
     },
     {
-        id: 9,
+        id: 11,
         name: 'CSS3',
         icon: '',
     },
     {
-        id: 10,
+        id: 12,
         name: 'MySQL',
         icon: '',
     },
     {
-        id: 11,
+        id: 13,
         name: 'SQL',
         icon: '',
     },
     {
-        id: 12,
+        id: 14,
         name: 'Wordpress',
         icon: '',
     },
     {
-      id: 13,
+      id: 15,
       name: 'PHP',
       icon: '',
   },
   {
-    id: 14,
+    id: 16,
     name: 'Prisma',
     icon: '',
 },
 {
-  id: 15,
+  id: 17,
   name: 'Bootstrap',
   icon: '',
 },
 ]
 
 export const projects = [
+  {
+    id: 0,
+    img: MediaTracker,
+    subtitle: 'React, Node, Express, MongoDB',
+    title: 'Media Tracker App',
+    sourceLink: 'https://github.com/lizmery/faves-tracker',
+    demoLink: 'https://mediatracker-proxy.vercel.app',
+    description:
+      'A fullstack app where users can keep track of different types of media, all in one place. The dashboard overview lets users gain insight into their media consumption habits via charts and tables.',
+  },
     {
       id: 1,
-      img: Project1,
+      img: Ecommerce,
       subtitle: 'Nextjs, TypeScript, TailwindCSS',
       title: 'Ecommerce App',
       sourceLink: 'https://github.com/lizmery/ecommerce-app',
@@ -138,7 +159,17 @@ export const projects = [
     },
     {
       id: 2,
-      img: Project2,
+      img: TamalesShop,
+      subtitle: 'React, CSS',
+      title: 'Tamales Shop',
+      sourceLink: 'https://github.com/lizmery/tamales-clone',
+      demoLink: 'https://tamales-clone.vercel.app/',
+      description:
+        'An e-commerce website that sells Tamales and features image sliders, a menu page that fetches products from CommerceJS, and payment processing handled by Stripe. ',
+    },
+    {
+      id: 3,
+      img: HairSalon,
       subtitle: 'NextJS, CSS, MongoDB',
       title: 'Hair Salon Website w/ Blog',
       sourceLink: 'https://github.com/lizmery/my-blog-app',
@@ -147,11 +178,11 @@ export const projects = [
         'A fully responsive hair salon site that features a blog that is only accessible to registered users. It also features an admin dashboard in which only admin users can manage users and posts.',
     },
     {
-      id: 3,
-      img: Project3,
+      id: 4,
+      img: Portfolio,
       subtitle: 'NextJS, Typescript, TailwindCSS, CSS',
       title: 'Portfolio v.4',
-      sourceLink: 'test',
+      sourceLink: 'https://github.com/lizmery/portfolio-v4',
       demoLink: '',
       description:
         'The fourth iteration of my personal portfolio that is fully responsive and showcases the projects I have created so far It also features a resume section and about section. ',
@@ -166,16 +197,7 @@ export const projects = [
     //   description:
     //     'A fullstack application that allows users to keep track of their interests (e.g. books, movies, music, shows, etc.). Users can create, read, update, and delete any items from their lists.',
     // },
-    {
-      id: 5,
-      img: Project4,
-      subtitle: 'React, CSS',
-      title: 'Tamales Shop',
-      sourceLink: 'https://github.com/lizmery/tamales-clone',
-      demoLink: 'https://tamales-clone.vercel.app/',
-      description:
-        'An e-commerce website that sells Tamales and features image sliders, a menu page that fetches products from CommerceJS, and payment processing handled by Stripe. ',
-    },
+    
     // {
     //   id: 6,
     //   img: '',
