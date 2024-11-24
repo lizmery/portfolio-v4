@@ -145,7 +145,7 @@ export const projects = [
     sourceLink: 'https://github.com/lizmery/faves-tracker',
     demoLink: 'https://mediatracker-proxy.vercel.app',
     description:
-      'A fullstack app where users can keep track of different types of media, all in one place. The dashboard overview lets users gain insight into their media consumption habits via charts and tables.',
+      'A fullstack app where users can keep track of different media types. Features include a dashboard with insights into media consumption habits, search functionality, and table filters for personalized tracking.',
   },
     {
       id: 1,
