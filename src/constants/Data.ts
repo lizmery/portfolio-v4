@@ -145,17 +145,24 @@ export const projects = [
     sourceLink: 'https://github.com/lizmery/faves-tracker',
     demoLink: 'https://mediatracker-proxy.vercel.app',
     description:
-      'A fullstack app where users can keep track of different media types. Features include a dashboard with insights into media consumption habits, search functionality, and table filters for personalized tracking.',
+      `Managing media across multiple platforms requires users to maintain separate accounts and can be tedious and time-consuming.
+      I created a fullstack app that centralizes tracking for books, movies, and series in one place, with search, filters, and a dashboard for insights.
+      Users can also import media lists via CSV from platforms like Goodreads, IMDb, and MyAnimeList.
+      `
   },
     {
       id: 1,
       img: Ecommerce,
-      subtitle: 'Nextjs, TypeScript, TailwindCSS',
+      subtitle: 'Nextjs, TypeScript, TailwindCSS, Stripe',
       title: 'Ecommerce App',
       sourceLink: 'https://github.com/lizmery/ecommerce-app',
       demoLink: 'https://ecommerce-app-dun-omega.vercel.app/',
       description:
-        'A fullstack ecommerce shop that features two separate dashboards: Customer & Admin. Customers can edit their profile, view/purchase products, while Admins can perform CRUD operations. ',
+        `An ecommerce with restricted product access and role-based functionality. This app allows only registered
+        customers to browse, purchase, and download products. 
+        Admins handle inventory, user management, and sales tracking. Features include authentication (Auth.js), 
+        Stripe checkout, email notifications (Resend), product file uploads, and input validation with Zod.
+        `
     },
     {
       id: 2,

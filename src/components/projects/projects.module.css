@@ -73,10 +73,7 @@
     font-weight: 700;
     margin-bottom: 5px;
     display: block;
-  }
-  
-  .card__subtitle {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   
   .card__title {
@@ -85,19 +82,27 @@
   }
   
   .card__description {
-    min-height: 150px;
-    margin-top: 20px;
+    min-height: 240px;
+    margin-top: 10px;
     padding-bottom: 15px;
   }
 
   .cardShape {
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
   }
+  
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1500px) {
     .projects__container {
       grid-template-columns: repeat(2, 1fr);
+    }
+    .card__description {
+      min-height: 200px;
+    }
+    .cardShape {
+      width: 115px;
+      height: 115px;
     }
   }
 
@@ -121,6 +126,7 @@
     }
     .card__description {
       min-height: 140px;
+      margin-top: 8px;
     }
   }
 
